@@ -1,7 +1,7 @@
 # a1-text_statistics
 Reading text from file to print simple statistics using string methods
 
-Author: Yves Pauchard
+Author: Rahian Islam
 
 # Problem statement
 According to Wikipedia, The Feynman Lectures on Physics are likely the most popular physics books ever written. We would like to understand better why that is. Maybe it is related to how the text is structured. The goal of this exercise is to analyze the text in _Chapter 1.1 Introduction_ of the Feynman Lectures available here http://www.feynmanlectures.caltech.edu/I_01.html
@@ -50,13 +50,49 @@ Focus on _why_ not _what_ comments, use `#` to start a comment
 ## Docstring
 For each function/method, include a docstring with the following format:
 ```python
-"""one line description, what does the function do?
+def count_words(text):
 
-name (type): description
+""" counts the number of words 
 
-returns: (type) description
+text (str): any string or text file 
+
+returns: (int) an integer number for the number of words
 """
 ```
+```python
+def count_sentences(text):
+""" counts the number of sentences 
+
+text (str): any string or text file 
+
+returns: (int) an integer number for the number of words
+"""
+
+```
+```python
+def avg_words(w,s):
+    
+"""
+calculates the number of avegrage words per sentence 
+
+w,s  (int):  the number of words (w) and the number of sentences (s)
+
+returns: (float) an integer number for the average number of words to 2 decimal places 
+"""
+
+
+```
+```python
+def personal_pro(text):
+"""
+counts the number of personal pronouns 
+
+text (str): any string or text file 
+
+returns: (int) an integer count of the number of pronouns in the text file
+
+```
+
 
 An example:
 ```python
