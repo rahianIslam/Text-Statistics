@@ -31,8 +31,12 @@ If your ouput does not match the example output above, include a paragraph why y
 
 Make sure final version of `text_statistics.py`, `feynman.txt`, `README.md` and `screenshot.png` are commited to git and pushed to github. 
 
+
 # How to run this program
-_Add your instructions and screenshot here_
+This code takes in the the given text file, in this case it is tghe feyman text file, and counts the number of words, sentences, the average number of words per sentence and the number of pronouns. Please check the screenshot for reference.
+
+
+![Example screenshot](Screenshot.png)
 
 # Style guide
 ## Author
