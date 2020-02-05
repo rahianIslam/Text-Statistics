@@ -31,12 +31,16 @@ If your ouput does not match the example output above, include a paragraph why y
 
 Make sure final version of `text_statistics.py`, `feynman.txt`, `README.md` and `screenshot.png` are commited to git and pushed to github. 
 
+## Numbers did not match 
+My numbers do not match with the numbers given in the output above. This is mainly because the numbers given in the output above are wrong. I put them in MS word and I got the same answers as mine. 
+
 
 # How to run this program
 This code takes in the the given text file, in this case it is tghe feyman text file, and counts the number of words, sentences, the average number of words per sentence and the number of pronouns. Please check the screenshot for reference.
 
 
 ![Example screenshot](Screenshot.png)
+
 
 # Style guide
 ## Author
@@ -47,6 +51,7 @@ Use lower case for variable, function and method names. Underscore to separate c
 
 ## Class naming
 Start class names with a capital letter and use camel-case for composed words, e.g. `class GraduateStudent()`
+
 
 ## Comments
 Focus on _why_ not _what_ comments, use `#` to start a comment
